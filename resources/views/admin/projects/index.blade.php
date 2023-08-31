@@ -26,7 +26,7 @@
                         <tr class="text-center">
                             <th>ID</th>
                             <th>Title</th>
-                            <th>Date of Creation</th>
+                            <th>Slug</th>
                             <th>Tools</th>
                         </tr>
                     </thead>
@@ -37,8 +37,8 @@
                                 <td>{{ $project->id }}</td>
                                 <!-- Project Title -->
                                 <td>{{ $project->title }}</td>
-                                <!-- Project Date of Creation -->
-                                <td>{{ $project->date_of_creation }}</td>
+                                <!-- Project Slug -->
+                                <td>{{ $project->slug }}</td>
                                 <!-- Project Tools -->
                                 <td>
                                     <!-- Project Show Button -->
