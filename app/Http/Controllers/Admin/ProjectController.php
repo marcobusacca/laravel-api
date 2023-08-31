@@ -72,6 +72,8 @@ class ProjectController extends Controller
 
         $project = new Project();
 
+        $form_data['slug'] = $project->generateSlug($form_data['title']);
+
         $project->fill($form_data);
 
         $project->save();
@@ -129,6 +131,8 @@ class ProjectController extends Controller
             }
 
         //
+
+        $form_data['slug'] = $project->generateSlug($form_data['title']);
 
         $project->update($form_data);
 
