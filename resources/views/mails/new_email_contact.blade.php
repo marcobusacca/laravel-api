@@ -1,9 +1,9 @@
 <h1>Nuovo Contatto Ricevuto da Form</h1>
 <p>
-    Hai ricevuto un nuovo messaggio:
+    Hai ricevuto un nuovo messaggio:<br>
 
-    Utente: {{ $lead->name }}<br>
-    Email: {{ $lead->email }}<br>
+    Utente: {{ $lead->name }}<br><br>
+    Email: {{ $lead->email }}<br><br>
     Contenuto: <br>
     {{ $lead->content }}
 </p>
