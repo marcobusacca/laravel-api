@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\ProjectController as ProjectController;
 use App\Http\Controllers\Api\TypeController as TypeController;
 use App\Http\Controllers\Api\TechnologyController as TechnologyController;
+use App\Http\Controllers\Api\LeadController as LeadController;
 
 /*
 |--------------------------------------------------------------------------
